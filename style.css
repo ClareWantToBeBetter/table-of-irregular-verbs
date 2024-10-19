@@ -1,0 +1,44 @@
+body{
+    /*overflow: hidden;*/
+    padding: 3% 12%;
+    font-size: 2rem;
+    background: chocolate;
+}
+.verb-column{
+    width: 33%;
+    margin: 20px 30px;
+}
+ul{
+    margin: 20px 0;
+    list-style-type: none;
+    width: 33%;
+    /*border: 3px dotted deeppink;*/
+    border-left: 1px solid chocolate;
+    /*visibility: hidden;*/
+}
+#columns-section{
+    display: flex;
+    column-count: 3;
+    column-rule: 30px solid black;
+
+    background: palegoldenrod;
+    border-radius: 5%;
+}
+#present-perfect{
+    /*visibility: hidden;*/
+}
+#button-container{
+    display: grid;
+}
+button{
+    min-width: 300px;
+    min-height: 70px;
+    border-color: firebrick;
+    border-style: solid;
+    border-radius: 30px;
+    font-size: 1rem;
+    text-rendering: auto;
+    color: white;
+    background: linear-gradient(to bottom, sandybrown, saddlebrown);
+    display: inline-block;
+}
